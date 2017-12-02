@@ -1,5 +1,5 @@
 function afficherPremier(n)
-    return [ a for a in 1:n if lesbooleans[a] == true ]
+    return [ a for a in 2:n if lesbooleans[a] == true ]
 end
 
 function elimineMultiples(x,n)
@@ -11,10 +11,8 @@ function elimineMultiples(x,n)
 end
 
 function trouvePremier(n)
-    for i in 1:n
-        if i == 1
-            lesbooleans[i] = false
-        elseif lesbooleans[i] == true
+    for i in 2:n
+        if lesbooleans[i] == true
             elimineMultiples(i,n)
         end
     end
