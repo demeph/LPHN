@@ -11,5 +11,6 @@ nbPremier <- function(n)
 		}
 		i <- i + 1
 	}
-	for(j in 1:n) {if (v[j]) print(i)}
+	for(j in 1:n) {if (v[j]) t <- c(t, j)}
+	return (t)
 }
