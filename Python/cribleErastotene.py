@@ -1,16 +1,15 @@
 import time
 
-
 def trouvePremiers(n):
     ensembles = set()
-    prim = set()
+    nbPremiers = set()
     i = 2
     while i < n :
         if i not in ensembles :
             ensembles.update(range(i * i, n + 1, i))
-            prim.add(i)
+            nbPremiers.add(i)
         i = i+1
-    return  prim
+    return nbPremiers
 
 t_avant = time.time()
 print(sorted(trouvePremiers(15)))
