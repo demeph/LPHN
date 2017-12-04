@@ -1,18 +1,15 @@
 nbPremier <- function(n) 
 { 
-	t <- !vector("logical", n) 
-	t[1] <- FALSE
+	v <- !vector("logical", n) 
+	v[1] <- FALSE
 	i <- 2 
-	while (sqrt(i) <= n)
+	while (i*i <= n)
 	{
-		if (t[i] == TRUE) 
+		if (v[i]) 
 		{
-			for (j in i+1:n) 
-			{ 
-				if ((j %% i) == 0) t[j] <- FALSE 
-			}
+			v[seq(i*i, n, i)] <- FALSE
 		}
 		i <- i + 1
 	}
-	return (t) 
+	for(j in 1:n) {if (v[j]) print(i)}
 }
