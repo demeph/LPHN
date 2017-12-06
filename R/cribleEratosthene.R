@@ -1,4 +1,4 @@
-# Fonction Crible d'Eratosthène en R (version non-optimale !!)
+# Fonction Crible d'Eratosthène en R
 # @author Mahier Loïc & PHALAVANDISHVILI Demtre
 
 nbPremier <- function(n) 
