@@ -7,7 +7,7 @@ def trouvePremiers(n):
     # on parcourt de 2 à n, on ignore 1 car on sait qu'il n'est pas premier
     i = 2
     while i < n :
-    	# on ajoute les nom-premiers dans ensembles
+    	# on ajoute les mutiples non-premiers dans ensembles
     	# et les premiers dans nbPremiers
         if i not in ensembles :
             ensembles.update(range(i * i, n + 1, i))
