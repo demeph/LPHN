@@ -1,5 +1,5 @@
 # Fonction Crible d'Eratosthène en Python
-# @author Mahier Loïc & PHALAVANDISHVILI Demtre
+# @author Mahier Loïc & PHALAVANDISHVILI Demetre
 
 def trouvePremiers(n):
     ensembles = set()

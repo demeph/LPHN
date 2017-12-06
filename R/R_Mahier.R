@@ -1,5 +1,5 @@
-# Fonction Crible d'Eratosthène en R
-# @author Mahier Loïc & PHALAVANDISHVILI Demtre
+# Fonction Crible d'Eratosthène en R (pas optimal)
+# @author Mahier Loïc & PHALAVANDISHVILI Demetre
 
 nbPremier <- function(n) 
 { 
