@@ -1,3 +1,6 @@
+# Fonction Crible d'Eratosthène en Julia (non-optimal !!)
+# @author Mahier Loïc & PHALAVANDISHVILI Demtre
+
 function afficherPremier(n)
     return [ a for a in 2:n if lesbooleans[a] == true ]
 end

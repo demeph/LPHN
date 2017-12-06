@@ -1,3 +1,6 @@
+# Fonction Crible d'Eratosthène en Python
+# @author Mahier Loïc & PHALAVANDISHVILI Demtre
+
 import time
 
 def trouvePremiers(n):
